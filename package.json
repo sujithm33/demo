@@ -19,5 +19,12 @@
     "eslint": "^9",
     "eslint-config-next": "15.1.5",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "description": "sampel",
+  "main": "index.js",
+  "keywords": [
+    "123"
+  ],
+  "author": "",
+  "license": "ISC"
 }
