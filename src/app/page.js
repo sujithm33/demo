@@ -17,7 +17,7 @@ export default function Home() {
 
 export function Hero() {
   return (
-    <div className="bg-white p-5 rounded-lg text-black flex flex-col items-center gap-3 gap-2 ">
+    <div className="bg-white p-5 rounded-lg text-black flex flex-col items-center gap-3 ">
       <Image
         src={sachin}
         width={200}
