@@ -17,6 +17,12 @@ export default function Home() {
         </h1>
         <Shelba />
       </div>
+      <div className="bg-green-700">
+        <h1 className="py-5 font-bold text-5xl text-center bg-red-500 text-white">
+          Kundan Moses
+        </h1>
+        <Mozz />
+      </div>
     </div>
   );
 }
@@ -79,6 +85,22 @@ export function Shelba() {
         />
         <Image
           src={shelba3}
+          width={200}
+          height={200}
+          alt="shelbafunny"
+          className="rounded"
+        />
+      </div>
+    </section>
+  );
+}
+import mozz1 from "@/Assets/mozz1.jpg";
+export function Mozz() {
+  return (
+    <section>
+      <div className="flex justify-center my-5 gap-3 ">
+        <Image
+          src={mozz1}
           width={200}
           height={200}
           alt="shelbafunny"
