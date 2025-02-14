@@ -11,6 +11,12 @@ export default function Home() {
         VADAKAN Sachin
       </h1>
       <Hero />
+      <div className="">
+        <h1 className="py-5 font-bold text-5xl text-center bg-black text-white">
+          Selukku Shelba
+        </h1>
+        <Shelba />
+      </div>
     </div>
   );
 }
@@ -47,5 +53,38 @@ export function Hero() {
         className="aspect-square rounded-lg"
       />
     </div>
+  );
+}
+
+import shelba1 from "@/Assets/shelba1.jpg";
+import shelba2 from "@/Assets/shelba2.jpg";
+import shelba3 from "@/Assets/shelba3.jpg";
+export function Shelba() {
+  return (
+    <section>
+      <div className="flex justify-center my-5 gap-3 ">
+        <Image
+          src={shelba1}
+          width={200}
+          height={200}
+          alt="shelbafunny"
+          className="rounded"
+        />
+        <Image
+          src={shelba2}
+          width={200}
+          height={200}
+          alt="shelbafunny"
+          className="rounded"
+        />
+        <Image
+          src={shelba3}
+          width={200}
+          height={200}
+          alt="shelbafunny"
+          className="rounded"
+        />
+      </div>
+    </section>
   );
 }
