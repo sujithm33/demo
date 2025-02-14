@@ -29,7 +29,7 @@ export default function Home() {
 
 export function Hero() {
   return (
-    <div className="bg-white p-5 rounded-lg text-black flex justify-center items-center gap-3 ">
+    <div className="bg-white p-5 rounded-lg text-black flex justify-center flex-wrap items-center gap-3 ">
       <Image
         src={sachin}
         width={200}
@@ -68,7 +68,7 @@ import shelba3 from "@/Assets/shelba3.jpg";
 export function Shelba() {
   return (
     <section>
-      <div className="flex justify-center my-5 gap-3 ">
+      <div className="flex flex-wrap justify-center my-5 gap-3 ">
         <Image
           src={shelba1}
           width={200}
@@ -98,7 +98,7 @@ import mozz1 from "@/Assets/mozz1.jpg";
 export function Mozz() {
   return (
     <section>
-      <div className="flex justify-center my-5 gap-3 ">
+      <div className="flex flex-wrap justify-center my-5 gap-3 ">
         <Image
           src={mozz1}
           width={200}
